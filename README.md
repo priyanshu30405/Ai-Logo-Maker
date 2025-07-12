@@ -26,10 +26,6 @@ LogoCraft AI is a cutting-edge, full-stack application that leverages artificial
 
 ---
 
-## 🚀 Live Demo
-
-**Experience LogoCraft AI in action:** [https://logocraft.ai](https://logocraft.ai)
-
 ---
 
 ## 🛠️ Technology Stack
@@ -281,14 +277,7 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## 📞 Support
 
-- **Documentation**: [docs.logocraft.ai](https://docs.logocraft.ai)
-- **Email**: support@logocraft.ai
-- **Discord**: [Join our community](https://discord.gg/logocraft)
-- **Issues**: [GitHub Issues](https://github.com/priyanshu30405/logocraft-ai/issues)
-
----
 
 ## 📄 License
 
@@ -300,29 +289,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Priyanshu Raj**
 
-- 🌐 **Website**: [priyanshu.dev](https://priyanshu.dev)
 - 💼 **LinkedIn**: [Priyanshu Raj](https://www.linkedin.com/in/priyanshu-raj-0b4a9624b/)
 - 🐙 **GitHub**: [@priyanshu30405](https://github.com/priyanshu30405)
-- 📧 **Email**: priyanshu@logocraft.ai
+
 
 ---
-
-## 🙏 Acknowledgments
-
-- **Nebius AI** for powerful logo generation
-- **Clerk** for seamless authentication
-- **Vercel** for amazing deployment platform
-- **Tailwind CSS** for beautiful styling
-- **Open Source Community** for inspiration
 
 ---
 
 <div align="center">
 
 **Made with ❤️ by Priyanshu Raj**
-
-[![GitHub stars](https://img.shields.io/github/stars/priyanshu30405/logocraft-ai?style=social)](https://github.com/priyanshu30405/logocraft-ai)
-[![GitHub forks](https://img.shields.io/github/forks/priyanshu30405/logocraft-ai?style=social)](https://github.com/priyanshu30405/logocraft-ai)
-[![GitHub issues](https://img.shields.io/github/issues/priyanshu30405/logocraft-ai)](https://github.com/priyanshu30405/logocraft-ai/issues)
 
 </div>
