@@ -79,7 +79,7 @@ export default function History() {
             [...Array(12)].map((_, index) => <SkeletonCard key={index} />)
           ) : logos.length > 0 ? (
             logos.map((logo) => (
-              <LogoCard key={logo.id} logo={logo} onDownload={handleDownload} />
+              <LogoCard key={logo.id} logo={logo} onDownload={() => handleDownload(logo.image_url)} />
             ))
           ) : (
             <div className="col-span-full text-center text-muted-foreground py-12">
