@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 40% 98%; /* light red-gray */
+    --foreground: 0 47% 11%; /* deep red */
+    --card: 0 0% 100%; /* white */
+    --card-foreground: 0 47% 11%;
+    --popover: 0 40% 98%;
+    --popover-foreground: 0 47% 11%;
+    --primary: 0 100% 50%; /* vibrant red */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 40% 92%; /* light red-gray */
+    --secondary-foreground: 0 47% 11%;
+    --muted: 0 16% 85%; /* soft gray */
+    --muted-foreground: 0 20% 40%;
+    --accent: 0 100% 95%; /* very light red */
+    --accent-foreground: 0 47% 11%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 16% 82%;
+    --input: 0 16% 82%;
+    --ring: 0 100% 50%;
+    --radius: 1.1rem;
+  }
+  .dark {
+    --background: 0 47% 8%; /* deep red */
+    --foreground: 0 40% 98%; /* light red-gray */
+    --card: 0 47% 10%;
+    --card-foreground: 0 40% 98%;
+    --popover: 0 47% 10%;
+    --popover-foreground: 0 40% 98%;
+    --primary: 0 100% 50%; /* vibrant red */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 47% 15%;
+    --secondary-foreground: 0 40% 98%;
+    --muted: 0 20% 18%;
+    --muted-foreground: 0 40% 80%;
+    --accent: 0 100% 20%; /* deep red */
+    --accent-foreground: 0 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 20% 18%;
+    --input: 0 20% 18%;
+    --ring: 0 100% 50%;
+    --radius: 1.1rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01" on, "ss02" on, "cv01" on, "cv02" on;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
